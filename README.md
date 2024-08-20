@@ -1,3 +1,3 @@
 ##Hotel Booking Application
 
-A hotel booking console application written in .NET with C#
+A hotel booking console application  in .NET framework with C#
