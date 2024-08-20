@@ -1,0 +1,2 @@
+C:\Users\Administrator\Documents\Hotel management\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Hotel management\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
