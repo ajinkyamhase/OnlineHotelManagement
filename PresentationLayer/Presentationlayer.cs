@@ -2,8 +2,36 @@
 
 namespace HotelManagementSystem.PresentationLayer
 {
+
     public class PresentationLayer
     {
+        public static void RegisterCustomer()
+        {
+            Console.Clear();
+            Console.WriteLine("Customer Registration:");
+            Console.Write("Enter username: ");
+            string username = Console.ReadLine();
+            Console.Write("Enter password: ");
+            string password = Console.ReadLine();
+
+            // Registration logic goes here
+
+            Console.WriteLine("Customer registration successful!");
+        }
+
+        public static void RegisterAdmin()
+        {
+            Console.Clear();
+            Console.WriteLine("Admin Registration:");
+            Console.Write("Enter username: ");
+            string username = Console.ReadLine();
+            Console.Write("Enter password: ");
+            string password = Console.ReadLine();
+
+            // Registration logic goes here
+
+            Console.WriteLine("Admin registration successful!");
+        }
         // Hotel Management
         public static void AddHotel()
         {

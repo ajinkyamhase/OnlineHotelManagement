@@ -13,7 +13,9 @@ namespace HotelBookingConsoleApplication
                 Console.WriteLine("Welcome to Hotel Management System!");
                 Console.WriteLine("1. Login as Customer");
                 Console.WriteLine("2. Login as Admin");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("3. Register Customer");
+                Console.WriteLine("4. Register Admin");
+                Console.WriteLine("5. Exit");
                 Console.Write("Enter your choice: ");
 
                 string choice = Console.ReadLine();
@@ -33,6 +35,12 @@ namespace HotelBookingConsoleApplication
                         }
                         break;
                     case "3":
+                        PresentationLayer.RegisterCustomer();
+                        break;
+                    case "4":
+                        PresentationLayer.RegisterAdmin();
+                        break;
+                    case "5":
                         Console.WriteLine("Thank you for using Hotel Management System!");
                         return;
                     default:
